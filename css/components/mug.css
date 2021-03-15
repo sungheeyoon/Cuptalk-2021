@@ -1,0 +1,15 @@
+.mug{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mug__pot{
+    width: 30px;
+    height: 25px;
+    background-color:rgb(31, 71, 52) ;
+    position: absolute;
+    right: 9px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+

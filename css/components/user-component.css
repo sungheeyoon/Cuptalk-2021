@@ -1,5 +1,7 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
 }
 .user-component,
 .user-component__column:first-child {
@@ -9,7 +11,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 27px;
+  border-radius: 50%;
   margin-right: 20px;
 }
 .user-component__title {
@@ -20,7 +22,8 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--main-color);
+  font-family: subfont;
 }
 .user-component__avata--xl {
   width: 80px;
@@ -30,7 +33,7 @@
 .user-component__avata--sm {
   width: 60px;
   height: 60px;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 .user-component__title--not-bold {
@@ -47,4 +50,40 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+  font-family: subfont;
+}
+
+.user-component__column__check-box{
+  height: 30px;
+  width: 30px;
+  background-color:rgb(238, 238, 238) ;
+}
+
+.user-component__column .badge{
+  position: absolute;
+  top: -5px;
+  left: 50px;
+}
+
+.user-component__column i{
+  font-size: 25px;
+  color: rgba(104, 61, 41,1);
+}
+
+.chats-header__piture{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 10px 0 rgba(175, 115, 37, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.chats-header__piture img{
+  margin-top: 5px;
+  width: 35px;
+  height: 48px;
 }

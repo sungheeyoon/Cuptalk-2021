@@ -16,9 +16,8 @@
 }
 
 .friends-screen__channel {
-  margin-top: 25px;
-  border-top: var(--main-border);
-  padding-top: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .friends-screen__channel-header {
@@ -26,4 +25,119 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+ 
+}
+
+.friends-header img{
+  width: 200px;
+  height: 42px;
+  margin-bottom: 28px;
+}
+
+.friends-header__piture{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 10px 0 rgba(175, 115, 37, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.friends-header__piture img{
+  margin-top: 15px;
+  width: 73px;
+  height: 94px;
+}
+
+.friends-header h1{
+  color: rgb(104, 61, 41);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.friends-header__icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.friends-header__icons .icon-circle:nth-child(2){
+  margin: 0 25px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+#splash-screen {
+  background-color: white;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 5s ease-in-out forwards;
+  animation-delay: 2s;
+}
+#splash-screen img{
+  width: 274px;
+  height: 76px;
+}
+.item{
+  margin-top: 40px;
+}
+.loader10 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: relative;
+  animation: loading 0.9s ease alternate infinite;
+  animation-delay: 0.36s;
+  top: 50%;
+  margin: -42px auto 0; 
+}
+.loader10::after, .loader10::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    animation: loading 0.9s ease alternate infinite; 
+}
+.loader10::before {
+    left: -40px;
+    animation-delay: 0.18s; 
+  }
+.loader10::after {
+    right: -40px;
+    animation-delay: 0.54s; 
+}
+
+@keyframes loading {
+  0% {
+    box-shadow: 0 28px 0 -28px rgba(104, 61, 41,1);; 
+  }
+  100% {
+    box-shadow: 0 28px 0 rgba(104, 61, 41,1);; 
+  } 
 }

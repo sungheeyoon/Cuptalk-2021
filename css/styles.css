@@ -10,6 +10,8 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/mug.css";
+@import "components/no-mobile.css";
 /* Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -17,11 +19,22 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@font-face {
+  font-family: mainfont;
+  src: url('Jalnan.ttf');
+}
+@font-face {
+  font-family: subfont;
+  src: url('NanumSquareB.ttf');
+}
 body {
-  color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  color: rgba(104, 61, 41,1);
+  font-family:  mainfont;
+  
+
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
