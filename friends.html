@@ -10,49 +10,38 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>11%</span>
-        <i class="fas fa-battery-quarter fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+        <i class="fas fa-signal "></i>
+        <i class="fas fa-wifi" ></i>
+        <i class="fas fa-battery-quarter" ></i>
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i> </span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="friends-header">
+      <img src="./logos/cupfriends.png" >
+      <div class="friends-header__piture">
+        <img src="./logos/myfriend.png" >
+      </div>
+      <h1>Heeyoon</h1>
+      <div class="friends-header__icons">
+        <div class="icon-circle">
+          <span><i class="fas fa-search fa-lg"></i> </span>
+        </div>
+        <div class="icon-circle">
+          <span><i class="fas fa-music fa-lg"></i></span>
+        </div>        
+        <div class="icon-circle">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+        
       </div>
     </header>
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
     <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4"
-            class="user-component__avatar user-component__avata--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Heeyoon</h4>
-            <!--<h6 class="user-component__subtitle">this is text whatever</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+          <span>CHANNEL</span>
         </div>
         <div class="user-component">
           <div class="user-component__column">
@@ -62,17 +51,75 @@
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Channel
+                Paris
               </h4>
             </div>
           </div>
           <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4"
+              class="user-component__avatar user-component__avata--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Australia
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-chevron-right fa-xs"></i>
             </div>
           </div>
         </div>
+        
+        
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4"
+              class="user-component__avatar user-component__avata--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Kim
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__column__check-box"> 
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4"
+              class="user-component__avatar user-component__avata--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Kim
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__column__check-box"> 
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
     </main>
     <nav class="nav">
@@ -101,6 +148,12 @@
         </li>
       </ul>
     </nav>
+    <div id="splash-screen">
+      <img src="./logos/cupfriends.png" >
+      <div class="item">
+				<div class="loader10"></div>
+			</div>
+    </div>
     <script
       src="https://kit.fontawesome.com/ee59112f94.js"
       crossorigin="anonymous"

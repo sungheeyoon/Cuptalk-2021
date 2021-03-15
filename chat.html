@@ -10,16 +10,12 @@
   <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>11%</span>
-        <i class="fas fa-battery-quarter fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+        <i class="fas fa-signal "></i>
+        <i class="fas fa-wifi" ></i>
+        <i class="fas fa-battery-quarter" ></i>
       </div>
     </div>
     <header class="alt-header">
@@ -32,25 +28,51 @@
         <h1 class="alt-header__title">Heeyoon</h1>
       </div>
       <div class="alt-header__column">
-        <span><i class="fas fa-search fa-lg"></i> </span>
-        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen main-chat">
-      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="chat-header__circle"></div>
+      <div class="chat-header__circle2"></div>
       <div class="message-row">
         <img src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4" />
         <div class="message-row__content">
-          <span class="message__author">Heeyoon</span>
+          <span class="message__author">Keiley</span>
           <div class="message__info">
-            <span class="message__bubble">Hi!</span>
+            <div class="message__info__handle"></div>
+            <span class="message__bubble">Hi! Did you find your cup?</span>
             <span class="message__time">21:27</span>
           </div>
         </div>
       </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <div class="message__info__handle2"></div>
+            <span class="message__bubble">Not yet.. How about you?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/24822577?s=60&v=4" />
+        <div class="message-row__content">
+          <span class="message__author">Keiley</span>
+          <div class="message__info">
+            <div class="message__info__handle"></div>
+            <span class="message__bubble">Me too..T.T</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <div class="message-row__content">         
+            <div class="message__info__handle second-handle"></div>
+            <span class="message__bubble second">Hi! Did you find your cup?</span>
+            <span class="message__time">21:27</span>
+          
+        </div>
+      </div>
     </main>
-
     <script
       src="https://kit.fontawesome.com/ee59112f94.js"
       crossorigin="anonymous"

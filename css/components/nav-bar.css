@@ -2,10 +2,13 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: white;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(143, 143, 143, 0.3);
+  box-shadow: 3pt 3pt 20pt 0 rgba(93, 56, 19, 0.25);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  animation: appearNav 1s ease-in-out;
 }
 .nav__list {
   display: flex;
@@ -13,7 +16,7 @@
 }
 .nav__link {
   position: relative;
-  color: #2e363e;
+  color:rgba(104, 61, 41,1);
 }
 
 .nav__notification {
@@ -28,4 +31,13 @@
   border-radius: 2.5px;
   position: absolute;
   left: 30px;
+}
+
+@keyframes appearNav {
+  from{
+    transform: translateY(80px);
+  }
+  to{
+    transform: none;
+  }
 }

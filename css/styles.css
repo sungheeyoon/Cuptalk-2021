@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/mug.css";
 /* Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -26,11 +27,13 @@
   src: url('NanumSquareB.ttf');
 }
 body {
-  color: #2e363e;
+  color: rgba(104, 61, 41,1);
   font-family:  mainfont;
+  
 
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+

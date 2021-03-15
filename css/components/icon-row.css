@@ -1,6 +1,8 @@
-.icon-row {
+.openbox .icon-row {
   display: flex;
   justify-content: space-between;
+  margin-top: 45px;
+  padding: 25px;
 }
 
 .icon-row__icon {
@@ -11,7 +13,23 @@
 
 .icon-row__icon i {
   font-size: 35px;
+  color: white;
+  margin-bottom: 4px;
 }
 .find-icons__icon span {
-  margin-top: 18px;
+  font-size: 5pt;
+}
+
+.icon-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(239, 180, 127);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle i{
+  color: white;
 }
