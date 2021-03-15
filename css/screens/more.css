@@ -18,12 +18,12 @@
   margin-bottom: 40px;
   display: flex;
 }
-.icon-back{
+.more-screen .icon-back{
   position: absolute;
   width: 70%;
   height: 450px;
   right: 0;
-  bottom: 50px;
+  bottom: 36px;
   z-index: -2;
   background-color: rgb(239, 180, 127);
   border-top-left-radius: 60pt;
@@ -43,5 +43,5 @@
   border-radius: 50%;
   position: absolute;
   right: -45px;
-  bottom: 200px;
+  bottom: 175px;
 }
