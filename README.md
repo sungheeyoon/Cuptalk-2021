@@ -1,3 +1,3 @@
-# Kokoa Clone 2021 Update
+# Cup talk!!
 
 HTML & CSS are so much fun!
